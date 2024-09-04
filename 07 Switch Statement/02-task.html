@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 2</title>
+  </head>
+  <body>
+    <pre>
+        Завдання:
+        Змінна season може приймати 4 значення: 1, 2, 3 чи 4.
+        Якщо значення змінної 1 у змінну result запишіть значення "зима",
+        якщо значення 2 – "весна" і т.д. Виведіть значення змінної result на екран.
+        Розв'яжіть задачу використовуючи конструкцію switch.
+    </pre>
+    <script>
+      const season = +prompt("Введіть пору року від 1 до 4");
+      switch (season) {
+        case 1:
+          alert("Пора року Зима");
+          break;
+        case 2:
+          alert("Пора року Весна");
+          break;
+        case 3:
+          alert("Пора року Літо");
+          break;
+        case 4:
+          alert("Пора року Осінь");
+          break;
+        default:
+          alert("Не існує більше сезонів");
+          break;
+      }
+    </script>
+  </body>
+</html>

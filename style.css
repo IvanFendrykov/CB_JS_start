@@ -1,0 +1,45 @@
+body {
+  font-family: Corbel;
+  box-sizing: border-box;
+}
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  width: 200px;
+  height: 200px;
+}
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.conteiner {
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.title {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.list-flex {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+.conteiner-box {
+  text-align: center;
+}

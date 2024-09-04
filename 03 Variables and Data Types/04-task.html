@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task4</title>
+  </head>
+  <body>
+    <pre>
+        Завдання:
+        Виконайте завдання відповідно коментарів у коді.
+    </pre>
+
+    <script>
+      let productPrice1 = 101.5; // ціна 1го продукту
+      let productPrice2 = 50.25; // ціна 2го продукту
+      let productPrice3 = 10.11; // ціна 3го продукту
+
+      let productQuantity1 = 5; // кількість одениць 1го продукту на складі
+      let productQuantity2 = 9; // кількість одениць 2го продукту на складі
+      let productQuantity3 = 15; // кількість одениць 3го продукту на складі
+      // Виведіть на екран:
+      // 1) Середню ціну на продукти
+      // 2) Загальну вартість всіх продуктів, які є на складі
+      const price = productPrice1 + productPrice2 + productPrice3;
+      const averagePrice = price / 3;
+      console.log("Середня ціна товару", averagePrice);
+
+      const totalPrice1 = productPrice1 * productQuantity1;
+      const totalPrice2 = productPrice2 * productQuantity2;
+      const totalPrice3 = productPrice3 * productQuantity3;
+
+      // console.log("Загальна вартість 1го продукту на складі", totalPrice1);
+      // console.log("Загальна вартість 2го продукту на складі", totalPrice2);
+      // console.log("Загальна вартість 3го продукту на складі", totalPrice3);
+
+      const totalPriceAllProduct = totalPrice1 + totalPrice2 + totalPrice3;
+
+      console.log("Загальна вартість всіх продуктів", totalPriceAllProduct);
+    </script>
+  </body>
+</html>

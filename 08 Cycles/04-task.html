@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 4</title>
+  </head>
+  <body>
+    <pre>
+        Завдання: 
+        Запросіть у користувача число, порахуйте суму всіх чисел між 0 та введенеми значенням та відтворіть результат на екрані.
+    </pre>
+    <script>
+      let total = null;
+      let value = +prompt("Введіть число");
+      let result = 0;
+      if (isNaN(value) || value <= 0) {
+        alert("Будь ласка, введіть дійсне число більше 0.");
+      } else {
+        let total = 0;
+      }
+
+      for (let i = 0; i <= value; i++) {
+        total += i;
+        console.log(total);
+        result = total;
+      }
+
+      alert(`Сума чисел ${result}`);
+    </script>
+  </body>
+</html>
